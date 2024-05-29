@@ -1,0 +1,70 @@
+h1{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size:70px;
+    line-height: 78px;
+    text-transform: capitalize;
+}
+
+body{
+    background-color: #696969;
+    display: flex;
+    flex-direction: column;
+}
+
+.row{
+    margin-top: 1cm;
+    font-size: 20px;
+    text-align: left;
+    
+}
+
+header{
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.854) 100%), url(img/mapa.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card{
+    border-style: dashed;
+    border-color: black;
+    
+}
+
+footer{
+    font-size: 25px;
+    margin-top: 1cm;
+    color: rgb(0, 0, 0);
+    font-style: italic;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    line-height: 2em;
+    width: 100%;
+}
+
+img{
+    width: 352px;
+    height: 150px;
+
+}
+
+.form-control{
+  width: 50%;
+  text-align: center;
+  align-items: center;
+  display: inline-block; 
+  text-align: left;
+  }
+  .form-group {
+      align-items: center;
+      text-align: center; 
+      color: white;
+      font-size: 15px;
+  }
+  
